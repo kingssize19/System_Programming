@@ -6,3 +6,10 @@
 ```cmd
 ls
 ```
+* Bu komut, bulunduğun dizindeki dosya ve klasörleri listeler.
+
+
+## Sık Kullanılan ls Parametreleri ve Açıklamaları
+
+#### -l (Uzun Liste Formatı)
+
