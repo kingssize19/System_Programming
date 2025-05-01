@@ -11,5 +11,5 @@ ls
 
 ## Sık Kullanılan ls Parametreleri ve Açıklamaları
 
-#### -l (Uzun Liste Formatı)
+1.  -l (Uzun Liste Formatı)
 
