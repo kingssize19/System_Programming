@@ -31,16 +31,16 @@ Servis dosyaları genellikle burada olur :
 ## Servis Dosyasının Yapısı (Template) 
 
 ```cmd 
-\[Unit\]
+[Unit]
 Description=Açıklayıcı isim
 After=network.target
 
-\[Service\]
+[Service]
 ExecStart=/path/to/script.sh
 Restart=always
 User=jetson
 
-\[Install\]
+[Install]
 WantedBy=multi-user.target
 ``` 
 
@@ -81,16 +81,16 @@ sudo nano /etc/systemd/system/myservice.service
 ```
 
 ```cmd
-\[Unit\]
+[Unit]
 Description=Jetson örnek servis
 After=network.target
 
-\[Service\]
+[Service]
 ExecStart=/home/jetson/my_script.sh
 Restart=always
 User=jetson
 
-\[Install\]
+[Install]
 WantedBy=multi-user.target
 ```
 
