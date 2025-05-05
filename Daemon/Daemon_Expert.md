@@ -19,7 +19,7 @@ RestartSec=3
 
 -------------------------------------------------------------------------------------------------------------
 
-# 2. Timeouts (Zman Aşımı Ayarları)
+# 2. Timeouts (Zaman Aşımı Ayarları)
 
 Servis beklenenden uzun çalışırsa systemd ne yapmalı?
 
